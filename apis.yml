@@ -1,7 +1,12 @@
 aid: hula-earth
 name: Hula Earth
-description: Hula Earth is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Hula Earth is a Munich-based environmental technology company providing
+  real-time biodiversity monitoring. It combines solar-powered, maintenance-free Hula
+  BioT IoT sensors with AI-powered species detection, satellite-based Earth Observation,
+  and the Hula Platform dashboard so organizations can monitor, manage, and report
+  on biodiversity at landscape scale. Hula Earth serves renewables (solar and wind),
+  agriculture, nature conservation, and urban development, turning environmental uncertainty
+  into operational confidence and compliance-ready reporting.
 url: https://raw.githubusercontent.com/api-evangelist/hula-earth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hula.earth/og_image.png
 tags:
 - Company
+- Biodiversity
+- Environmental Monitoring
+- IoT
+- Satellite Imagery
+- Artificial Intelligence
+- Sustainability
+- Conservation
+- Earth Observation
+- ESG
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hula-earth-domain-security.yml
 - type: Website
   url: https://hula.earth
+- type: Support
+  url: https://hula.earth/contact
+- type: Blog
+  url: https://hula.earth/resources#articles
+- type: TermsOfService
+  url: https://hula.earth/terms
+- type: PrivacyPolicy
+  url: https://hula.earth/privacy
+- type: GitHubOrganization
+  url: https://github.com/hulaearth
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hulaearth
+- type: YouTube
+  url: https://www.youtube.com/@hula_earth
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
