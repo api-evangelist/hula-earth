@@ -58,6 +58,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://hula.earth/plans
+- type: Plans
+  url: plans/hula-earth-plans-pricing.yml
 - type: DomainSecurity
   url: security/hula-earth-domain-security.yml
 - type: Website
