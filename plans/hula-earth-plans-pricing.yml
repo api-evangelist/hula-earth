@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://hula.earth/plans
+sources:
+- https://hula.earth/plans
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Two-tier plan page; one numeric price (€299/month, annual subscription billed once), higher tier
+  custom-priced by sites and devices.
+plan_count: 2
+currency: EUR
+plans:
+- name: Ecosystem
+  price_text: €299 / month
+  price: 299
+  currency: EUR
+  period: month
+  included_quota: Satellite ecosystem indexes over time, Hula Insights action plans and ecological advice,
+    Export as GeoJSON, Full Hula Platform access; Up to 5 projects at a time; Annual subscription, billed
+    once
+- name: Full access
+  price_text: Custom pricing
+  period: none
+  included_quota: Everything in ecosystem, plus BioT devices on the ground and Hula AI predictions; Custom
+    pricing based on the number of sites and devices
+rate_limit_statements:
+- Up to 5 projects at a time
