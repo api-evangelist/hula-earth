@@ -35,3 +35,24 @@ plans:
     pricing based on the number of sites and devices
 rate_limit_statements:
 - Up to 5 projects at a time
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Ecosystem
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Full access
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
